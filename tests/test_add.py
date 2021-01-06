@@ -1,5 +1,5 @@
 import unittest
-from utils.add import add
+from asperin.utils.add import add
 
 
 class TestAdd(unittest.TestCase):
