@@ -7,6 +7,6 @@ class TestAdd(unittest.TestCase):
         result = add(5, 5)
         self.assertEqual(result, 10)
 
-    # def test_to_fail(self):
-    #     result = add(5, 5)
-    #     self.assertEqual(result, 1)
+    def test_to_fail(self):
+        result = add(5, 5)
+        self.assertEqual(result, 1)
